@@ -1,0 +1,48 @@
+**How to give Attendance using Attendace Bot**
+
+**commands:**
+**__to give attendance:__** `!!plan`
+
+> **format- **
+> `!!plan` `<Subject1/topic description>`[eg. physics chapter4 time:10-11] `<semicolon>`[eg. use semicolon - ";" to add multiple] `< Subject2/topic description>`[eg. Math chapter4 10 to 11pm] `<comma>` ....[add as many subject separated by semicolon]
+> 
+> **example:**
+> `!!plan` physics problem solving sheet4 newtonio bolobidda time: 11am - 12pm; Math matrix QB solve korbo time: 12pm - 3pm; chemistry chapter 4 bikal 4-5ta
+> 
+> **NOTE:** You can add as many subject and topic you want. You can add the report once a day! If you want to remove your attendance then use `!!remove` command to remove that days report. That way you can again add your report with correction!
+
+**__to remove todays attendance:__**`!!remove` 
+
+> **format-**
+> `!!remove`
+> 
+> **example:**
+> `!!remove`
+> 
+> **NOTE:** You can't remove your previous days attendance. It only removes your daily attendance and your attendance can only be removed if you didn't add Final Update
+
+**__to add update:__**`!!update`
+
+> **format-**
+> `!!update` `<Your study update message however your want>`
+> 
+> **example:**
+> `!!update` Completed Physics
+> Chemistry pora hoynai, Bangla bujhi na tai pori nai
+> Math completed
+> 
+> **Note:** You can Change your update as many times as you want before the next day starts. But if you add the Update report once then you can't remove your attendance report plan. Changing the update will overwrite the previous one.
+
+__**to see your plans and updates:** __`!!show`
+
+> **format-**
+> `!!show` `<number of days you want to see>`[eg. 5]
+> 
+> **example:**
+> `!!show 5`
+> 
+> **NOTE:** You can leave the number of days empty. That will show you maximum possible days withing 2000 letters.
+
+__**to get the google sheet link:**__ `!!link`
+__**to get help:**__ `!!help`
+__**to get tutorial:**__ `!!video`
